@@ -1,0 +1,59 @@
+/* , html , body {
+	margin: 0;
+	padding: 0;
+}*/
+body {
+	width: 100%;
+}
+h1{
+	font-family: sans-serif;
+	font-size: 50px;
+	text-align: center;
+}
+ .images {
+ 	width: 65%;
+	display: block;
+	margin: 0 auto;
+	
+}
+#bigsize {
+	position: relative;
+	width: 960px;
+	height: 544px;
+	margin: 50px  auto;
+}
+.btn {
+	font-weight: normal;
+	color: white;
+	background: coral;
+	width: 50px;
+}
+
+.before , .after{
+	position: absolute;
+	top: 50%;
+	padding: 10px;
+	color: coral;
+	font-size: 24px;
+	font-weight: bold;
+	cursor: pointer;
+	border-radius: 0 3px 3px 0;
+	background-color: rgba(0,0,0,0.6);
+}
+
+.after{
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+#reset{
+	position: absolute;
+	text-decoration:  none;
+	color: white;
+	font-size: 60px;
+	font-family: sans-serif;
+	right: 10px;
+	opacity: 0.4;
+	background-color: rgba(0,0,0,0.5);
+	line-height: 50px;
+}
